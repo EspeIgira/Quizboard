@@ -1,0 +1,12 @@
+html{
+  background-color:lightblue;
+}
+h1 {
+  text-align:center;
+}
+p {
+  text-align:center;
+}
+div ol{
+  list-style-type: inside;
+}
