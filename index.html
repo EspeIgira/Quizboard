@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="scripts.js"></script>
 </head>
 <body>
@@ -14,16 +15,109 @@
     <div class="jumbotron">
       <h1>Quiz Board</h1>
       <p>By Multiple choice Fill out this form below contains three input questions:</p>
-      <div>
-        <ol>
-          <li>What is the shortform of HTML?</li>
-          <li>What is the other name for JavaScript?</li>
-          <li>Is C++ a low level Language?</li>
-        </ol>
+      <p>/ Questions: /</p>
+      <div class="questions">
+        <li>Question 1. What is the shortform of HTML?</li>
+        <li>Question 2. What is the other name for JavaScript?</li> 
+        <li>Question 3. Is C++ a low level Language?</li>
       </div> 
     </div>
-  </div>
-  
+  <div id="blanks"> 
+  <form>
+  <div class="row">
+      <div class="col-md-4">
+        <div class="panel-heading">
+        <div class="well">
+          <h3>/ Question 1 /</h3>
+          <div class="radio1">
+          <div class="radio">   
+              <label>
+                <input type="radio" name="button1" value="MLHT">
+                MLHT
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="button1" value="HTML">
+                HTML
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="button1" value="HMLT">
+                HMLT
+              </label>
+            </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel-heading">
+        <div class="well">
+          <h3>/ Question 2 /</h3>
+          <div class="radio2">
+              <div class="radio">
+                  <label>
+                    <input type="radio" name="button2" value="ECMAscript">
+                    ECMAscript
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="button2" value="JS">
+                    JS
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="button2" value="Java">
+                   Java
+                  </label>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+        <div class="col-md-4">
+          <div class="panel-heading">
+          <div class="well">
+              <h3>/ Question 3 /</h3>
+              <div class="radio3">
+                  <div class="radio">
+                      <label>
+                        <input type="radio" name="button3" value="Yes">
+                        Yes
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="button3" value="No">
+                        No
+                      </label>
+                    </div>
+                </div>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>     
+  <div class="panel-heading">  
+  <div class="panel-footer">
+    <!--<p>Panel Footer</p>-->
+
+     <div class="button"><button type="Submit Here" class="btn btn-default" >Submit Here</button></div>
+     <br>
+     <p id="email"><a href="mailto:someone@example.com">WecodeSchool@gmail.com</a></p>
+     <p class="license">copyright &copy:2018, QUIZ BOARD</p>
+    
+    </div>
+  </div> 
+  </form>
+ 
+    
+    
+    
   
 
 

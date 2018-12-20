@@ -1,5 +1,7 @@
-html{
-  background-color:lightblue;
+.container{
+  color:darkcyan;
+  background-color:darkcyan;
+
 }
 h1 {
   text-align:center;
@@ -7,6 +9,23 @@ h1 {
 p {
   text-align:center;
 }
-div ol{
-  list-style-type: inside;
+.questions{
+  margin-left:380px;
+  list-style: none;
+}
+h3 {
+  text-align:center;
+}
+.radio1{
+  text-align:center;
+}
+.radio2{
+  margin-left:100px;
+}
+.radio3{
+  margin-left:120px;
+}
+.button{
+  text-align:center;
+  color:blue;
 }
