@@ -10,20 +10,20 @@
      
       var result= 0;
      
-      if (button1===40){
+      if (button1===10){
         
-        result+=40;
+        result+=10;
       }
-      if (button2===40){
+      if (button2===10){
         
-        result+=40;
+        result+=10;
       } 
-      if (button3===40){
+      if (button3===10){
         
-        result+=40;
+        result+=10;
       }
        $(".final").show();
-      $("#display").text("Your score is:" + result);
+      $("#display").text("Your score is: " + result);
 
      
      
