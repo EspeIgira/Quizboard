@@ -11,11 +11,17 @@
 
 ## Technologies Used
   
-  HTML Language, JavaScript, Bootstrap, jQuery  and Css Stylesheet.
+ . HTML Language 
+
+ . JavaScript * . JQuery
+
+ . Bootstrap 
+  
+ . CSS Stylesheet
 
 ## Contact information
 
-  Telephone number (+250)788556167
+  Telephone number (+250)788556167 or Email 2751550461@qq.com
  
 ## Authors
 
