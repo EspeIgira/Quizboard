@@ -2,7 +2,7 @@
   color:darkcyan;
   background-color:darkcyan;
 
-}
+}   
 h1 {
   text-align:center;
 }
@@ -28,6 +28,12 @@ h3 {
 .button{
   text-align:center;
   color:blue;
-}.final{
+}
+.refresh{
+  text-align: center;
+}
+.final{
   display:none;
+  color:white;
+  text-align:center;
 }
