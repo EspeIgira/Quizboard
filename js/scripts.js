@@ -22,7 +22,8 @@
         
         result+=10;
       }
-       $(".final").show();
+      
+      $(".final").show();
       $("#display").text("Your score is: " + result);
 
      
